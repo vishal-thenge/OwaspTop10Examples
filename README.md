@@ -1,4 +1,6 @@
 # Blog
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvishal-thenge%2FOwaspTop10Examples.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvishal-thenge%2FOwaspTop10Examples?ref=badge_shield)
+
 A demonstration of OWASP 2017 Top 10 and .NET Core 2. This is a .net core project using an in-memory Entity Framework database and doesn't have any external
 dependencies. 
 
@@ -63,3 +65,6 @@ methods on any of the other actions where [ValidateAntiForgeryToken] is present.
 ## A10RC - Underprotected APIs
 Our login method has no rate limiter. To fix this, look at the RateLimiter.cs in \RateLimiter which adds the ability to throttle connections
 for a specific user. 
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fvishal-thenge%2FOwaspTop10Examples.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fvishal-thenge%2FOwaspTop10Examples?ref=badge_large)
